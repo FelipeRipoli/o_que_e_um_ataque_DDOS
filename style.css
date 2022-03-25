@@ -15,8 +15,8 @@
     --color-h2: #018F67;
     --color-shadow: #014431;
     --color-links1: #00996E;
-    --color-links2: #03dd9f;
-    --color-link-background: #00815d;
+    --color-links2: #005e43;
+    --color-link-background: #00ffb7;
 }
 body{
     font-family: var(--fonte-p);
