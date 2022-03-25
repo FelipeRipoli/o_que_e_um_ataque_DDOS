@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fonte-p : 'Montserrat', sans-serif;
+    --fonte-h: 'Playfair Display', serif;
+
+    --color-body-background1: #014D37; 
+    --color-body-background2: #00805B;  
+    --color-h1: #00DB9D;
+    --color-h2: #018F67;
+    --color-shadow: #014431;
+    --color-links1: #00996E;
+    --color-links2: #03dd9f;
+    --color-link-background: #00815d;
+}
+body{
+    font-family: var(--fonte-p);
+    text-indent: 15px;
+    background-image: linear-gradient(to bottom, var(--color-body-background1), var(--color-body-background2));
+}
+body strong{
+    color: var(--color-body-background2);
+}
+header h1{
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-h);
+    font-size: 2.5em;
+    color: var(--color-h1);
+    text-shadow: 1px 1px 5px #014431;
+}
+header nav{
+    text-align: center;
+    padding-bottom: 10px;
+}
+header nav a{
+    color: var(--color-links1);
+    text-decoration: none;
+    margin: 15px;
+}
+header nav a:hover{
+    color: var(--color-links2);
+    text-decoration: underline;
+    background-color: var(--color-link-background);
+    border-radius: 3px;
+    transition-duration: .3s;
+}
+main{
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #00000077;
+}
+main #exp h1{
+    text-transform: capitalize;
+    font-family: var(--fonte-h);
+    color: var(--color-h2);
+    text-shadow: 1px 1px 3px var(--color-shadow);
+    padding: 3px;
+}
+main #exp p{
+    padding: 10px;
+    text-align: justify;
+}
+aside > picture img{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+#used h2{
+    text-transform: capitalize;
+    font-family: var(--fonte-h);
+    color: var(--color-h2);
+    text-shadow: 1px 1px 3px var(--color-shadow);
+}
+#used p{
+    padding: 10px;
+    text-align: justify;
+}
+#evitar h2{
+    text-transform: capitalize;
+    font-family: var(--fonte-h);
+    color: var(--color-h2);
+    text-shadow: 1px 1px 3px var(--color-shadow);
+}
+#evitar p{
+    padding: 10px;
+    text-align: justify;
+}
+footer{
+    background-color: var(--color-body-background1);
+    text-align: center;
+    padding: 5px;
+}
+footer p a{
+    text-align: center;
+    color: rgba(245, 245, 245, 0.459);
+    text-decoration: none;
+}
+footer p a:hover{
+    color: white;
+    transition-duration: .5s;
+}
