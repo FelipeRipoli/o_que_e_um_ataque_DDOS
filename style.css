@@ -66,7 +66,7 @@ main #exp h1{
     padding: 3px;
 }
 main #exp p{
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     text-align: justify;
 }
 aside > picture img{
@@ -82,7 +82,7 @@ aside > picture img{
     text-shadow: 1px 1px 3px var(--color-shadow);
 }
 #used p{
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     text-align: justify;
 }
 #evitar h2{
@@ -92,7 +92,17 @@ aside > picture img{
     text-shadow: 1px 1px 3px var(--color-shadow);
 }
 #evitar p{
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+}
+#future h2{
+    text-transform: capitalize;
+    font-family: var(--fonte-h);
+    color: rgb(48, 48, 48);
+    text-shadow: 1px 1px 3px var(--color-shadow);
+}
+#future p{
+    padding: 5px 10px 5px 10px;
     text-align: justify;
 }
 footer{
